@@ -1,6 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+//snack 5
+int numeroPari;
 
+do
+{
+    Console.WriteLine("Inserisci numero pari");
+    numeroPari = Convert.ToInt32(Console.ReadLine());
+} while (numeroPari % 2 != 0);
+Console.WriteLine($"Il numero inserito è {numeroPari}");
+return;
 //snack 4
 int sum2 = 0;
 double media = 0;
