@@ -12,9 +12,9 @@ for (int i = 0; i < N; i++)
     {
         Random rnd = new Random();
         tmp[j] = rnd.Next(1,100);
-        Console.Write($"{tmp[j]}, ");
+        Console.Write(tmp[j] + "\t");
     }
-    Console.WriteLine(" ");
+    Console.WriteLine();
 }
 
 return;
