@@ -1,6 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 //snack 5
+Console.WriteLine("Inserisci numero di array da creare");
+int N = Convert.ToInt32 (Console.ReadLine());
+
+for (int i = 0; i < N; i++)
+{
+    Console.WriteLine($"Array numero {i+1}");
+    int[] tmp = new int[10];
+    for (int j = 0; j < tmp.Length; j++)
+    {
+        Random rnd = new Random();
+        tmp[j] = rnd.Next(1,100);
+        Console.Write($"{tmp[j]}, ");
+    }
+    Console.WriteLine(" ");
+}
+
+return;
+
+//snack 5
 Console.WriteLine("Inserisci numero pari");
 int numeroPari;
 numeroPari = Convert.ToInt32(Console.ReadLine());
@@ -14,7 +33,7 @@ else
     Console.WriteLine(numeroPari+1);
 }
 
-
+return;
 
 
 
