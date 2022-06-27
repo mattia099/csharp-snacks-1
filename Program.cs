@@ -1,4 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
+//snack 4
+int sum2 = 0;
+double media = 0;
+float c = 0;
+for (int i = 2; i <= 10; i++)
+{
+    sum2 += i;
+    c++;
+}
+media = sum2 / c;
+
+Console.WriteLine($"La somma dei numeri da due a 10 è {sum2}");
+Console.WriteLine($"La media dei numeri da due a 10 è {media}");
+
+
+
+return;
+//snack 3
 int num = 10;  
 int[] array = new int[num];
 int sum = 0;
