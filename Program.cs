@@ -1,5 +1,30 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
+//snack 11
+Console.WriteLine("Inserisci due parole");
+string firstWord = Console.ReadLine();
+string secondWord = Console.ReadLine();
+stringCompare(firstWord, secondWord);
+void stringCompare( string word1, string word2)
+{
+    if (word1.Length == word2.Length)
+    {
+        Console.WriteLine(word1);
+        Console.WriteLine(word2);
+    }
+    else if (word1.Length > word2.Length)
+    {
+        Console.WriteLine(word1);
+    }
+    else
+    {
+        Console.WriteLine(word2);
+    }
+}
+
+return;
+
 //snack 5
 Console.WriteLine("Inserisci numero di array da creare");
 int N = Convert.ToInt32 (Console.ReadLine());
