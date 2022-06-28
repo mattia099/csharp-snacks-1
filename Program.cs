@@ -1,6 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
+//snack 12
+Console.WriteLine("Inserisci numero");
+int numero = int.Parse(Console.ReadLine());
+isOdd(numero);
+void isOdd(int n)
+{
+    if (n%2 == 0)
+    {
+        Console.WriteLine("Pari");
+    }else
+    {
+        Console.WriteLine("Dispari");
+    }
+}
+
+return;
+
 //snack 11
 Console.WriteLine("Inserisci due parole");
 string firstWord = Console.ReadLine();
